@@ -174,6 +174,8 @@ export interface SelectOption {
 
 export interface SelectSelector {
   select: {
+    multiple?: boolean;
+    custom_value?: boolean;
     options: string[] | SelectOption[];
   };
 }
