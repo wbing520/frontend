@@ -176,6 +176,7 @@ export interface SelectSelector {
   select: {
     multiple?: boolean;
     custom_value?: boolean;
+    mode?: "list" | "dropdown";
     options: string[] | SelectOption[];
   };
 }
