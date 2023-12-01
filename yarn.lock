@@ -9700,7 +9700,7 @@ fsevents@~2.3.2:
     sortablejs: ^1.15.0
     source-map-url: ^0.4.1
     superstruct: ^1.0.3
-    systemjs: ^6.14.0
+    systemjs: ^6.14.2
     tar: ^6.1.13
     terser-webpack-plugin: ^5.3.6
     tinykeys: ^1.4.0
@@ -15056,10 +15056,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"systemjs@npm:^6.14.0":
-  version: 6.14.0
-  resolution: "systemjs@npm:6.14.0"
-  checksum: df82c38a5f23012dfee693e97dacfc48eef787a80cc41bc3bd594567ba9441c6392978841c6555d88df7451a2e22c8df9fcbf9c88c78f9f9b9027393ac38d84b
+"systemjs@npm:^6.14.2":
+  version: 6.14.2
+  resolution: "systemjs@npm:6.14.2"
+  checksum: 1f58c7da8f7deb8e4a3eb357e67f5363eb97e44a456f8f81ece391f2e1ae54ac70fb62135043d4cf96c11c6b76d7963c295ea844ca25bcb3b55193f6727fd0b2
   languageName: node
   linkType: hard
 
