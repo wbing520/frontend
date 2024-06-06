@@ -1631,12 +1631,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fullcalendar/list@npm:^6.1.4":
-  version: 6.1.4
-  resolution: "@fullcalendar/list@npm:6.1.4"
+"@fullcalendar/list@npm:^6.1.14":
+  version: 6.1.14
+  resolution: "@fullcalendar/list@npm:6.1.14"
   peerDependencies:
-    "@fullcalendar/core": ~6.1.4
-  checksum: 0338a8bb1546e103921d1d6a5baf54b9d43759d9aaf905357c2272e01cbd42e120812128b2f2661d0ef82abc0b8447b16e6f1618968487ffa4c6f0a570f907d5
+    "@fullcalendar/core": ~6.1.14
+  checksum: ce5cf7e38534e5e25fafe8cd5eda3ecfb031e42959495d06d06afdf70b45adb32057fea4e2126fa2f0d5b170df84defea47d7c29d7ba5aac529589145c87dbd6
   languageName: node
   linkType: hard
 
@@ -9540,7 +9540,7 @@ fsevents@~2.3.2:
     "@fullcalendar/core": ^6.1.4
     "@fullcalendar/daygrid": ^6.1.4
     "@fullcalendar/interaction": ^6.1.4
-    "@fullcalendar/list": ^6.1.4
+    "@fullcalendar/list": ^6.1.14
     "@fullcalendar/timegrid": ^6.1.4
     "@koa/cors": ^4.0.0
     "@lezer/highlight": ^1.1.3
