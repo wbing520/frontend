@@ -3958,6 +3958,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@thepassle/axobject-query@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@thepassle/axobject-query@npm:4.0.0"
+  dependencies:
+    dequal: ^2.0.3
+  checksum: 72150e6cac82b11af4922c58236cb07bbbfa4e821fb7c8ba3c3f61ab2b7f8fe2ee0b7ef0ecd3aa08d66b07609b02ed69aa6d780abd36d30d89bcdc19263442d8
+  languageName: node
+  linkType: hard
+
 "@thomasloven/round-slider@npm:0.6.0":
   version: 0.6.0
   resolution: "@thomasloven/round-slider@npm:0.6.0"
@@ -5951,13 +5960,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axobject-query@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "axobject-query@npm:2.2.0"
-  checksum: 96b8c7d807ca525f41ad9b286186e2089b561ba63a6d36c3e7d73dc08150714660995c7ad19cda05784458446a0793b45246db45894631e13853f48c1aa3117f
-  languageName: node
-  linkType: hard
-
 "babel-loader@npm:^9.1.2":
   version: 9.1.2
   resolution: "babel-loader@npm:9.1.2"
@@ -7381,6 +7383,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dequal@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "dequal@npm:2.0.3"
+  checksum: 8679b850e1a3d0ebbc46ee780d5df7b478c23f335887464023a631d1b9af051ad4a6595a44220f9ff8ff95a8ddccf019b5ad778a976fd7bbf77383d36f412f90
+  languageName: node
+  linkType: hard
+
 "destroy@npm:1.2.0, destroy@npm:^1.0.4":
   version: 1.2.0
   resolution: "destroy@npm:1.2.0"
@@ -7551,6 +7560,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emoji-regex@npm:^10.2.1":
+  version: 10.4.0
+  resolution: "emoji-regex@npm:10.4.0"
+  checksum: a6d9a0e454829a52e664e049847776ee1fff5646617b06cd87de7c03ce1dfcce4102a3b154d5e9c8e90f8125bc120fc1fe114d523dddf60a8a161f26c72658d2
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -7558,7 +7574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:^9.2.0, emoji-regex@npm:^9.2.2":
+"emoji-regex@npm:^9.2.2":
   version: 9.2.2
   resolution: "emoji-regex@npm:9.2.2"
   checksum: 8487182da74aabd810ac6d6f1994111dfc0e331b01271ae01ec1eb0ad7b5ecc2bbbbd2f053c05cb55a1ac30449527d819bbfbf0e3de1023db308cbcb47f86601
@@ -7615,6 +7631,13 @@ __metadata:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
   checksum: bf3f787facaf4ce3439bef59d148646344e372bef5557f0d37ea8aa02c51f50a925cd1f07b8d338f18992c29f544ec235a8c64bcdb56030196c48832a5494174
+  languageName: node
+  linkType: hard
+
+"entities@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "entities@npm:4.5.0"
+  checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
   languageName: node
   linkType: hard
 
@@ -7960,28 +7983,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-lit-a11y@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "eslint-plugin-lit-a11y@npm:2.3.0"
+"eslint-plugin-lit-a11y@npm:^4.1.4":
+  version: 4.1.4
+  resolution: "eslint-plugin-lit-a11y@npm:4.1.4"
   dependencies:
+    "@thepassle/axobject-query": ^4.0.0
     aria-query: ^5.1.3
     axe-core: ^4.3.3
-    axobject-query: ^2.2.0
     dom5: ^3.0.1
-    emoji-regex: ^9.2.0
-    eslint-plugin-lit: ^1.6.0
+    emoji-regex: ^10.2.1
+    eslint-plugin-lit: ^1.10.1
     eslint-rule-extender: 0.0.1
     language-tags: ^1.0.5
-    parse5: ^5.1.1
+    parse5: ^7.1.2
     parse5-htmlparser2-tree-adapter: ^6.0.1
     requireindex: ~1.2.0
   peerDependencies:
     eslint: ">= 5"
-  checksum: 6bc589e7e2b17a1dfb5a883b02cd29728061a106322981c8b1c065454d54280567464fcc1564a9e7ade8c779890e4fd49ac31ff556e12d451c92ec76d668542a
+  checksum: 68b7e369cfca97bb9dafb93d1c96a4d073ee9173b64746e597965aa86e0925c41bb7801a822b9d579f2b5524064afa31f0af427a5019710dbc1a7ca95e51bf4c
   languageName: node
   linkType: hard
 
-"eslint-plugin-lit@npm:^1.6.0, eslint-plugin-lit@npm:^1.8.2":
+"eslint-plugin-lit@npm:^1.10.1":
+  version: 1.15.0
+  resolution: "eslint-plugin-lit@npm:1.15.0"
+  dependencies:
+    parse5: ^6.0.1
+    parse5-htmlparser2-tree-adapter: ^6.0.1
+    requireindex: ^1.2.0
+  peerDependencies:
+    eslint: ">= 5"
+  checksum: 8505381c6965114e2e0bd2749c8fc169acf701d42d504b158f7ad38753f4a7afcd05715a44d239f438aa1defc393f5794c20ba309cfaa965a7a2ac7f20deb3b5
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-lit@npm:^1.8.2":
   version: 1.8.2
   resolution: "eslint-plugin-lit@npm:1.8.2"
   dependencies:
@@ -9641,7 +9677,7 @@ fsevents@~2.3.2:
     eslint-plugin-disable: ^2.0.3
     eslint-plugin-import: ^2.27.5
     eslint-plugin-lit: ^1.8.2
-    eslint-plugin-lit-a11y: ^2.3.0
+    eslint-plugin-lit-a11y: ^4.1.4
     eslint-plugin-unused-imports: ^2.0.0
     eslint-plugin-wc: ^1.4.0
     esprima: ^4.0.1
@@ -12911,17 +12947,19 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"parse5@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "parse5@npm:5.1.1"
-  checksum: 613a714af4c1101d1cb9f7cece2558e35b9ae8a0c03518223a4a1e35494624d9a9ad5fad4c13eab66a0e0adccd9aa3d522fc8f5f9cc19789e0579f3fa0bdfc65
-  languageName: node
-  linkType: hard
-
 "parse5@npm:^6.0.1":
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
   checksum: 7d569a176c5460897f7c8f3377eff640d54132b9be51ae8a8fa4979af940830b2b0c296ce75e5bd8f4041520aadde13170dbdec44889975f906098ea0002f4bd
+  languageName: node
+  linkType: hard
+
+"parse5@npm:^7.1.2":
+  version: 7.2.0
+  resolution: "parse5@npm:7.2.0"
+  dependencies:
+    entities: ^4.5.0
+  checksum: 78a3286521d5ae09837ed3112a3c817cc718ee444951aced617c46a229b9872b10b7b20941d4d0ca7176c7f37f13dbf013206abe2e5e533563d635d36a9a3dc6
   languageName: node
   linkType: hard
 
